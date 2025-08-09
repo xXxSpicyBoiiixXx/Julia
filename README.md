@@ -1,6 +1,6 @@
 # Julia
 
-'''
+```
 using Pkg
 Pkg.add("Conda")
 using Conda
@@ -11,3 +11,4 @@ Pkg.build("IJulia")
 
 using IJulia
 notebook(detached=false)
+```
